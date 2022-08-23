@@ -2,9 +2,27 @@
   /* body {
     background: #111;
   } */
-  .offcanvas-header {
+  /* .offcanvas-header {
     display: block;
+  } */
+  /* .offcanvas-header {
+    display: block;
+    position: relative;
+    z-index: 10000;
+    background-color: red;
+    top: 50px;
+  } */
+
+  .fa-times {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    font-size: 2.2rem;
+    z-index: 1000;
+    cursor: pointer;
   }
+
   .navbar-collapse {
     position: fixed;
     top: 0;
@@ -17,12 +35,20 @@
     visibility: hidden;
     background: #fff;
     transition: visibility 0.2s ease-in-out;
+    z-index: 1;
   }
+
   .navbar-collapse.show {
     visibility: visible;
     transform: translateX(-100%);
     width: 50%;
   }
 
+  .btn-close {
+    border: transparent;
+    color: #d4d4d4;
+    background-color: transparent;
+    font-size: 22px;
+  }
   /* close button  */
 }
