@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: #cd2028;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    background:#F7F7F7;
+}
+
+.category {
+    padding: 20px 0px;
+    background: #E62232;
+}
+
+.category .col {
+    text-align: center;
+}
+
+.category img {
+    height: 96px;
+}
+
+.category h2 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.ft-details {
+    background: #FFFFFF;
+    z-index: 100000;
+    position: relative;
+    margin: -123px 20px 0px 20px;
+    padding: 20px;
+    height: 105px;
+    overflow: hidden;
+
+}
+
+.ft-details:hover {
+    background: #FFFFFF;
+    z-index: 100000;
+    position: relative;
+    margin: -225px 20px 0px 20px;
+    padding: 20px;
+    height: auto;
+    transition: .4s ease-in-out;
+}
+
+.ft-grid:hover ~ .ft-details {
+    background: #FFFFFF;
+    z-index: 100000;
+    position: relative;
+    margin: -225px 20px 0px 20px;
+    padding: 20px;
+    height: auto;
+    transition: .4s ease-in-out;
+}
+
+.ft-grid:hover + .ft-details {
+    color: #fff3cd;
+}
+
+.highlight-post {
+    background: #F7F7F7;
+    padding: 50px 0px;
+    margin-top: 20px;
+}
+
+.highlight-post .list-inline {
+    text-align: center;
+}
+
+.active-number {
+    background: #E62232;
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.single-inline-post {
+    margin-bottom: 15px;
+}
+
+.single-inline-post h4 {
+    line-height: 118px;;
+}
+
+.grid-title {
+    margin: 30px 0px 30px 0px;
+}
+
+.vertical-line {
+    width: 100%;
+    height: 7px;
+    border-top: 1px solid #eae9e7;
+    border-bottom: 1px solid #eae9e7;
+    margin-left: 18px;
+    float: right;
+}
+
+.celebrity-story, .chef-story, .more-post, .instagram-reels, .footer {
+    background: #F7F7F7;
+    padding: 25px 0px;
+}
+
+.featured-post {
+    padding: 25px 0px;
+}
+
+.call-action {
+    background-image: url("../img/cta.png");
+    height: 250px;
+    padding: 25px 0px;
+}
+
+.call-action h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.subscribe {
+    padding: 25px;
+    background: #e32329;
+    bottom: 275px;
+    position: relative;
+}
+
+
+.uil-smile-dizzy:before {
+    font-size: 16px;
+    color: #e32329;
+}
+.uil-user:before {
+    font-size: 16px;
+    color: #e32329;
+}
+
+.sign-in{
+    color: black;
+}
+.slider{
+    margin-bottom: -70px;
+}
+.slider-title{
+    height: auto;
+    color: rgb(206, 37, 44);
+    text-decoration: none;
+    white-space: normal;
+    width: 520px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 60px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 50px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+.subscribe .box{
+    display: flex;
+    align-items: center;
+}
+.subscribe .col-auto{
+    flex-grow: 1;
+}
+.slider-img{
+    margin-top: 0px;
+}
+
+
+
+
+/*Overrride CSS Start*/
+.carousel-control-prev-icon {
+    background-image: url("../img/icon/angle-left.svg") !important;
+    font-weight: 600;
+    background: #e32329;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 60%;
+}
+
+.carousel-control-next-icon {
+
+    background-image: url("../img/icon/angle-right.svg") !important;
+    font-weight: 600;
+    background: #e32329;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 60%;
+}
+
+.carousel {
+    position: relative;
+}
+
+.slider-text {
+    position: absolute;
+    top: 23%;
+    left: 19%;
+    width: 22%;
+}
+
+.bg-light {
+    background: #F7F7F7;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown {
+    position: relative !important;
+    transition: all .3s;
+}
+
+.dropdown-menu {
+    position: absolute !important;
+    top: 95px !important;
+    min-width: 30rem;
+    transition: all .3s;
+}
+
+/*.dropdown-menu{
+    display: none;
+}
+li.dropdown a:hover .dropdown-menu{
+    display: block;
+
+}*/
+.nav-item {
+    padding: 30px 0px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    background-color: #D8D9D9;
+    border: 1px solid #eae9e7;
+}
+
+.dropdown-menu ul li {
+    list-style: none;
+}
+
+.dropdown-menu ul li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: #5c5c5c;
+}
+
+.dropdown-menu ul {
+    padding: 0px;
+}
+.container-fluid{
+    padding-right: 4%;
+    padding-left: 4%;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #e22329;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+ }
+.navbar-light .navbar-nav .nav-link {
+    color: #e22329;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.navbar .uil{
+    font-size: 13px;
+    color: rgb(45, 45, 40);
+}
+
+.form-control{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 14.5px 26px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: inherit;
+    color: #6b6768;
+    border: 1px solid #dddbdb;
+    border-radius: 0;
+    outline: 0;
+    cursor: text;
+    -webkit-appearance: none;
+    -webkit-transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
+    -o-transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
+    transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
+    background: #fff;
+}
+.btn-subscribe{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    font-family: Catamaran,sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: .15em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
+    -o-transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
+    transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
+    padding: 12px 39px 15px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #e22329;
+    margin-bottom: 1px !important;
+}
+/*Overrride CSS End*/
+
